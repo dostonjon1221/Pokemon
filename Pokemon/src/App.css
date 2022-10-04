@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: aquamarine;
+}
+
+.searchArea{ 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 25px; 
+} 
+.searchArea >input{ 
+  width: 35%; 
+  padding: 10px; 
+  border-radius: 30px; 
+  font-size: 20px; 
+} 
+input:focus{ 
+  box-shadow: rgba(149,157,165,0.2)0 8px 24px!important; 
+} 
+.searchArea > button{ 
+  background-color: rgba(46,51,58); 
+  color:white; 
+  padding: 10px; 
+  font-size: 20px; 
+  font-family: sans-serif; 
+  border-radius: 20px; 
+  margin-left: 10px; 
+} 
+.searchArea > button:hover{ 
+  cursor: pointer; 
+  background: none; 
+  color: brown; 
+} 
+.resultCard{ 
+  display: flex; 
+  justify-content: center; 
+  text-align: center; 
+ 
+} 
+.resultCard >.card { 
+  width: 350px; 
+  height: 480px; 
+  background-color: blue; 
+  margin: 20px; 
+} 
+.card > img{ 
+  width: 50%; 
+}
